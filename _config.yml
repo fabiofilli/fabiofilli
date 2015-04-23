@@ -3,7 +3,7 @@ title: Fabio Filli
 email: hejhej@fabiofilli.com
 description: > # its just the personal website and blog of fabio filli.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fabiofilli.com" # the base hostname & protocol for your site
+url: "http://blog.fabiofilli.com" # the base hostname & protocol for your site
 twitter_username: fabiofilli
 github_username:  fabiofilli
 
