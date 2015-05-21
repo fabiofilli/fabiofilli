@@ -11,3 +11,17 @@ github_username:  fabiofilli
 markdown: kramdown
 
 permalink: /:title/
+
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: post
+      lang: en
+  -
+    scope:
+      path: _posts/de
+    values:
+      layout: post
+      lang: de
