@@ -17,11 +17,11 @@ defaults:
     scope:
       path: _posts/en
     values:
-      layout: post
+      layout: posts
       lang: en
   -
     scope:
       path: _posts/de
     values:
-      layout: post
+      layout: posts
       lang: de
