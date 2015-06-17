@@ -6,29 +6,27 @@ permalink: /blog/
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  {% for post in site.posts %}
   <ul class="post-list">
-  {% if post.lang == 'en' %}
-    <h4>English</h4>
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-  {% elsif post.lang == 'de' %}
-    <h4>Deutsch</h4>
+    {% for post in site.posts %}
+      {% if post.lang == "en" %}
+      <h1 class="page-heading">English</h1>
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
-    {% endif %}
+      {% elsif post.lang == "de" %}
+      <h1 class="page-heading">Deutsch</h1>
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+      {% endif %}
+    {% endfor %}
   </ul>
-  {% endfor %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

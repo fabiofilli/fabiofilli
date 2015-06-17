@@ -3,6 +3,7 @@ layout: post
 title:  "Meine neue Website & Blog für Hackers"
 date:   2015-04-24
 author: Fabio Filli
+lang: de
 ---
 Endlich habe ich mir die Zeit genommen, eine neue Website mit einem persönlichen Weblog zu erstellen. Meine Website wird momentan auf [GitHub](https://github.com/fabiofilli/fabiofilli.com "GitHub fabiofilli.com") mit [GitHub Pages](https://pages.github.com/ "GitHub Pages") gehostet. Neben regulären HTML Seiten, wird auch [Jekyll](http://jekyllrb.com/ "Jekyll") von GitHub Pages unterstützt, ein statischer Website Generator, den ich für diese Website & Blog verwende.
 
