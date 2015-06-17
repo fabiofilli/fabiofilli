@@ -4,18 +4,26 @@ layout: default
 
 <div class="home">
 
+  <h1 class="post-lang-title">English</h1>
+
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.lang == "en" %}
-      <h1 class="page-heading">English</h1>
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
-      {% elsif post.lang == "de" %}
-      <h1 class="page-heading">Deutsch</h1>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h1 class="post-lang-title">Deutsch</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.lang == "de" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
