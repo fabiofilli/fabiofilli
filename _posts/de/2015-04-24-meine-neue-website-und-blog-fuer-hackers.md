@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Meine neue Website & Blog für Hackers"
+title:  "Meine neue Website & Notes für junge Hackers"
 date:   2015-04-24
 author: Fabio Filli
 lang: de
