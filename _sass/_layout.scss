@@ -11,6 +11,7 @@
 }
 
 .site-title {
+    font-family: $site-title-font-family;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
@@ -34,6 +35,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        font-family: $nav-font-family;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -203,9 +205,10 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 40px;
     letter-spacing: -1px;
     line-height: 1;
+    font-family: $post-title-font-family;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -217,6 +220,7 @@
 
     h2 {
         font-size: 32px;
+        font-family: $post-undertitle-font-family;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -225,6 +229,7 @@
 
     h3 {
         font-size: 26px;
+        font-family: $post-undertitle-font-family;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -233,9 +238,19 @@
 
     h4 {
         font-size: 20px;
+        font-family: $post-undertitle-font-family;
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        font-family: $post-text-font-family;
+
+        @include media-query($on-laptop) {
+            font-size: 16px;
         }
     }
 }
