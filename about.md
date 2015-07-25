@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hej hej! My name is Fabio. I’m teaching in Zürich and I believe in Fysi.
+Hej hej! My name is Fabio. I’m a teacher, but who isn't.
