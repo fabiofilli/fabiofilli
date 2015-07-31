@@ -4,36 +4,8 @@ layout: default
 
 <div class="home">
 
-  <h1 class="post-lang-title">English</h1>
+  <p>, my name is Fabio. This is my home on the web. I believe it is important to own your own identity and content online. I use my online home as a creative outlet. I write notes you can find <a href="{{ "/notes" | prepend: site.baseurl }}">here</a> and post things <a href="https://twitter.com/FabioFilli">here</a>.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.lang == "en" %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <h1 class="post-lang-title">Deutsch</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.lang == "de" %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Be notified of new notes. Subscribe to the <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS feed</a>.</p>
 
 </div>
