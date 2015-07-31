@@ -1,0 +1,41 @@
+---
+layout: default
+title: Notes
+permalink: /notes/
+---
+
+<div class="home">
+
+  <h1 class="post-title">Notes for young Hackers</h1>
+
+  <h2 class="post-lang-title">English</h2>
+
+  {% for post in site.posts %}
+    {% if post.lang == "en" %}
+    <div class="post-list">
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+      </li>
+    </div>
+    {% endif %}
+  {% endfor %}
+
+  <h1 class="post-lang-title">Deutsch</h1>
+
+  {% for post in site.posts %}
+    {% if post.lang == "de" %}
+    <div class="post-list">
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+      </li>
+    </div>
+    {% endif %}
+  {% endfor %}
+
+  <div class="post-rss">
+    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+
+</div>
