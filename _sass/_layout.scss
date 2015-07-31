@@ -221,7 +221,8 @@
     h2 {
         font-size: 32px;
         font-family: $post-undertitle-font-family;
-        font-weight: 700;
+        font-weight: 300;
+        margin-top: 40px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -231,8 +232,8 @@
     h3 {
         font-size: 26px;
         font-family: $post-undertitle-font-family;
-        font-weight: 700;
-
+        font-weight: 300;
+        margin-top: 40px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -242,8 +243,8 @@
     h4 {
         font-size: 20px;
         font-family: $post-undertitle-font-family;
-        font-weight: 700;
-
+        font-weight: 300;
+        margin-top: 40px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
