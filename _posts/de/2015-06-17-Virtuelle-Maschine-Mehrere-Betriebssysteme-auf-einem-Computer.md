@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Computer in der Matrix"
+title: "Virtuelle Maschine - Mehrere Betriebssysteme auf einem Computer"
 date: 2015-06-17
 author: Fabio Filli
 lang: de
 ---
+Der Titel sollte eigentlich wie folgt lauten:
+**Computer in der Matrix**
 Den Film [Matrix](https://de.wikipedia.org/wiki/Matrix_%28Film%29 "Matrix") gesehen? Ich möchte dir zeigen, wie man einen Computer in der Matrix gefangen hält. Naja.. nicht wirklich ;) aber zumindest wie man mehrere Betriebssysteme auf einem Computer verwenden kann.
 
 
