@@ -8,7 +8,8 @@ twitter_username: fabiofilli
 github_username:  fabiofilli
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
 
 permalink: /:title/
 
